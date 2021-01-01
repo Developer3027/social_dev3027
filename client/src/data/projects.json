@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "img": "../images/projects/barber-shop-desktop.png",
+    "title": "The Barber Shop",
+    "body": "A simple little WordPress site with Elementor example. This is a small barber shop that takes online appointments. I found this design on dribble and just loved it. I loved making it work for this concept.",
+    "anchor": "https://barber-shop.mason-roberts.com"
+  },
+  {
+    "id": 2,
+    "img": "../images/projects/copywriter-screenwriter.png",
+    "title": "The Copywriter",
+    "body": "Ran across a copywriter on UpWork that needed a site and design. It is when I decided to dive into Elementor. This site was worked up in Figma then created in Elementor on WordPress.",
+    "anchor": "https://elementor.mason-roberts.com"
+  },
+]

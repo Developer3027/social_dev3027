@@ -1,0 +1,36 @@
+.tooltip {
+  display: inline-block;
+  align-items: center;
+  position: relative;
+}
+
+.tooltip:hover {
+  border-bottom: 1px solid #c9e265;
+}
+
+.tooltip .tooltiptext {
+  background-color: #555;
+  border-radius: 6px;
+  border: 1px solid #c9e265cb;
+  bottom: -125%;
+  color: #fff;
+  font-size: 12px;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+  padding: 5px 0;
+  position: absolute;
+  text-align: center;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  visibility: hidden;
+  width: 120px;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  opacity: 1;
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=100)';
+  visibility: visible;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server for social",
+  "main": "server.js",
+  "repository": "https://github.com/Developer3027/social_dev3027",
+  "author": "Mason Roberts",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
