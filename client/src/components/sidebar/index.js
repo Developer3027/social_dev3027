@@ -24,7 +24,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             &nbsp;Blog
           </SidebarAnchor>
 
-          <SidebarLink to='/'>
+          <SidebarLink to='/projects'>
             <FaMugHot />
             &nbsp;Projects
           </SidebarLink>

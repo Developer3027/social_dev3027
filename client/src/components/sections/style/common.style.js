@@ -2,7 +2,6 @@ import styled from 'styled-components/macro';
 
 export const Container = styled.div`
   font-family: 'Nunito', sans-serif;
-  background-color: #fff;
   height: 100%;
 
   @media screen and (max-width: 800px) {
@@ -12,6 +11,14 @@ export const Container = styled.div`
   @media screen and (max-width: 500px) {
     height: 100%;
   }
+`;
+
+export const DarkBox = styled(Container)`
+  background-color: #000;
+`;
+
+export const LightBox = styled(Container)`
+  background-color: #fff;
 `;
 
 export const Banner = styled.div`
@@ -39,13 +46,19 @@ export const Image = styled.img`
 `;
 
 export const Title = styled.h1`
-  color: #000;
   padding: 1rem 0;
+`;
+
+export const DarkTitle = styled(Title)`
+  color: #000;
+`;
+
+export const LightTitle = styled(Title)`
+  color: #fff;
 `;
 
 export const Text = styled.p`
   font-size: 18px;
-  color: #000;
   width: 700px;
   margin: 0 auto;
   padding: 1rem 0;
@@ -55,4 +68,12 @@ export const Text = styled.p`
     width: 100%;
     padding: 1rem 2rem;
   }
+`;
+
+export const DarkText = styled(Text)`
+  color: #000;
+`;
+
+export const LightText = styled(Text)`
+  color: #fff;
 `;

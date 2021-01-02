@@ -10,6 +10,7 @@ import About from './components/sections/pages/about';
 import Brand from './components/sections/pages/branding';
 import WebDesign from './components/sections/pages/wwwdesign';
 import SEO from './components/sections/pages/seo';
+import Projects from './components/sections/pages/projects';
 
 import './App.css';
 
@@ -42,6 +43,9 @@ function App() {
         </Route>
         <Route path='/seo'>
           <SEO />
+        </Route>
+        <Route path='/projects'>
+          <Projects />
         </Route>
       </Switch>
     </div>

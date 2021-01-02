@@ -26,14 +26,10 @@ const Navbar = ({ toggle }) => {
           <NavHighlight>Dev</NavHighlight>eloper3027
         </NavLink>
         <NavIconbar>
-          <a
-            className='tooltip'
-            href='/Mason_Resume.pdf'
-            target='_blank'
-            rel='noopener'>
+          <NavLink className='tooltip' to='/projects'>
             <span className='tooltiptext'>Projects</span>
             <NavProject />
-          </a>
+          </NavLink>
           <a
             className='tooltip'
             href='/Mason_Resume.pdf'

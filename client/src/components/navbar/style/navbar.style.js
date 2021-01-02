@@ -103,7 +103,7 @@ export const RuthChat = styled(FaRobot)`
 `;
 
 export const NavProject = styled(FaMugHot)`
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin: 0 1rem;
   color: white;
 
