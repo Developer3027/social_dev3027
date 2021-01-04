@@ -29,7 +29,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             &nbsp;Projects
           </SidebarLink>
 
-          <SidebarLink to='/'>
+          <SidebarLink to='/packages'>
             <IoMdCube />
             &nbsp;Packages
           </SidebarLink>

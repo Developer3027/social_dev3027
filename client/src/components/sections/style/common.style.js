@@ -3,6 +3,9 @@ import styled from 'styled-components/macro';
 export const Container = styled.div`
   font-family: 'Nunito', sans-serif;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   @media screen and (max-width: 800px) {
     height: 100vh;
@@ -45,6 +48,10 @@ export const Image = styled.img`
   }
 `;
 
+export const logoImg = styled.img`
+  width: 50%;
+`;
+
 export const Title = styled.h1`
   padding: 1rem 0;
 `;
@@ -55,6 +62,18 @@ export const DarkTitle = styled(Title)`
 
 export const LightTitle = styled(Title)`
   color: #fff;
+`;
+
+export const TitleThree = styled.h3`
+  padding: 0.5rem 0;
+`;
+
+export const LightTitleThree = styled(TitleThree)`
+  color: #fff;
+`;
+
+export const DarkTitleThree = styled(TitleThree)`
+  color: #000;
 `;
 
 export const Text = styled.p`

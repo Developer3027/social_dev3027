@@ -1,5 +1,5 @@
 import styled from 'styled-components/macro';
-import { NavLink as Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { IoMdCube } from 'react-icons/io';
 import {
   FaBars,

@@ -121,25 +121,3 @@ export const HeroHL = styled.span`
   color: #c9e265;
   border-bottom: 5px solid #7ed957;
 `;
-
-export const HeroSmlHL = styled.span`
-  color: #7ed957;
-  margin: 0 5px;
-  font-size: 1.2em;
-
-  @media screen and (max-width: 800px) {
-    margin: 0;
-  }
-`;
-
-export const HeroCerts = styled.p`
-  font-family: 'Nunito', sans-serif;
-  font-size: 14px;
-  margin-left: 25px;
-  margin-bottom: 15px;
-
-  @media screen and (max-width: 800px) {
-    margin: 0;
-    margin-bottom: 15px;
-  }
-`;

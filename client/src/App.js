@@ -11,6 +11,8 @@ import Brand from './components/sections/pages/branding';
 import WebDesign from './components/sections/pages/wwwdesign';
 import SEO from './components/sections/pages/seo';
 import Projects from './components/sections/pages/projects';
+import Packages from './components/sections/pages/packages';
+import Footer from './components/sections/footer';
 
 import './App.css';
 
@@ -47,7 +49,11 @@ function App() {
         <Route path='/projects'>
           <Projects />
         </Route>
+        <Route path='/packages'>
+          <Packages />
+        </Route>
       </Switch>
+      <Footer />
     </div>
   );
 }

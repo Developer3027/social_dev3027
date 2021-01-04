@@ -1,34 +1,58 @@
 import styled from 'styled-components/macro';
+import { FaLinkedin, FaGithubSquare, FaCodepen } from 'react-icons/fa';
 
-export const AboutContainer = styled.div`
-  font-family: 'Nunito', sans-serif;
-  background-color: #000;
-  height: 100%;
+export const LinkedIn = styled(FaLinkedin)`
+  font-size: 3em;
+  color: #fff;
+
+  &:hover {
+    color: #7ed957;
+    cursor: pointer;
+  }
+`;
+
+export const GitHub = styled(FaGithubSquare)`
+  font-size: 3em;
+  color: #fff;
+
+  &:hover {
+    color: #7ed957;
+    cursor: pointer;
+  }
+`;
+
+export const CodePen = styled(FaCodepen)`
+  font-size: 3em;
+  color: #fff;
+
+  &:hover {
+    color: #7ed957;
+    cursor: pointer;
+  }
+`;
+
+export const EvenBox = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0.5em auto;
+  width: 900px;
+`;
+
+export const Cert = styled.span`
+  font-size: 0.8rem;
+`;
+
+export const HlText = styled.p`
+  color: #fff;
+`;
+
+export const SmlHL = styled.span`
+  color: #7ed957;
+  margin: 0 5px;
+  font-size: 1.2em;
 
   @media screen and (max-width: 800px) {
-    height: 100vh;
-  }
-
-  @media screen and (max-width: 500px) {
-    height: 100%;
-  }
-`;
-
-export const AboutTitle = styled.h1`
-  color: #fff;
-  padding: 1rem 0;
-`;
-
-export const AboutText = styled.p`
-  font-size: 18px;
-  color: #fff;
-  width: 700px;
-  margin: 0 auto;
-  padding: 1rem 0;
-  text-align: left;
-
-  @media screen and (max-width: 500px) {
-    width: 100%;
-    padding: 1rem 2rem;
+    margin: 0;
   }
 `;

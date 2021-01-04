@@ -20,9 +20,6 @@ const Hero = () => {
       <HeroContainer>
         <HeroContent>
           <HeroItemLeft>
-            <HeroCerts>
-              <HeroSmlHL>[</HeroSmlHL>certifications<HeroSmlHL>]</HeroSmlHL>
-            </HeroCerts>
             <HeroTitle>
               <HeroHL>M</HeroHL>ason <br /> Roberts
             </HeroTitle>
@@ -32,10 +29,12 @@ const Hero = () => {
             <HeroHeading>Welcome</HeroHeading>
             <HeroTalk>
               My name is Mason Roberts and I am a freelance web services
-              provider. I specialize in helping individuals to small businesses
-              with web design and development. Whether you need branding
-              assistance, hosting assistance, site design and development, SEO
-              assistance, or site optimization, I am here to help.
+              provider. Here you will find information about me and what I can
+              do. This site is created, in React, as a combination of my
+              freelance side and my portfolio. It occurred to me that whether
+              you are a client, or an employer, you both want to know my skills
+              and what I can do for you. I know this is unconventional but I
+              encourage you to take a moment and look around.
             </HeroTalk>
             <HeroLocation>
               Located in beautiful Rock Hill South Carolina and serving Fort

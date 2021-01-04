@@ -1,13 +1,21 @@
 import React from 'react';
-import { DarkBox, Banner } from '../../style/common.style';
+import { DarkBox } from '../../style/common.style';
 
-import Accordion from '../../../accordion';
+import ProjectCard from '../../../projectcard';
+import data from '../../../../data/projects';
 
 const Projects = () => {
   return (
     <DarkBox>
-      <Banner></Banner>
-      <Accordion />
+      {data.map((item) => (
+        <ProjectCard
+          key={item.id}
+          image={item.img}
+          anchor={item.anchor}
+          title={item.title}
+          text={item.body}
+        />
+      ))}
     </DarkBox>
   );
 };

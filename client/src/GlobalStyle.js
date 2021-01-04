@@ -7,6 +7,14 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
   }
 
+  a {
+    text-decoration: none;
+  }
+
+  li {
+    margin-left: 1em;
+  }
+
   h1,
   h2,
   h3,

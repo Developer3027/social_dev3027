@@ -30,14 +30,10 @@ const Navbar = ({ toggle }) => {
             <span className='tooltiptext'>Projects</span>
             <NavProject />
           </NavLink>
-          <a
-            className='tooltip'
-            href='/Mason_Resume.pdf'
-            target='_blank'
-            rel='noopener'>
+          <NavLink className='tooltip' to='/packages'>
             <span className='tooltiptext'>Packages</span>
             <NavPackage />
-          </a>
+          </NavLink>
 
           <a
             className='tooltip'
