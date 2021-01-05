@@ -1,13 +1,7 @@
 import styled from 'styled-components/macro';
 import { Link } from 'react-router-dom';
 import { IoMdCube } from 'react-icons/io';
-import {
-  FaBars,
-  FaPaperclip,
-  FaRobot,
-  FaMugHot,
-  FaUserCircle,
-} from 'react-icons/fa';
+import { FaBars, FaPaperclip, FaRobot, FaMugHot } from 'react-icons/fa';
 
 export const Nav = styled.nav`
   display: flex;
@@ -54,6 +48,8 @@ export const NavMenuWrap = styled.div`
   color: white;
 `;
 
+/* For members section
+* Add the user icon and wrap with this div
 export const NavUserMenu = styled.div`
   display: flex;
   justify-content: center;
@@ -61,6 +57,7 @@ export const NavUserMenu = styled.div`
   cursor: pointer;
   color: white;
 `;
+*/
 
 export const NavIconbar = styled.div`
   display: flex;
@@ -76,11 +73,13 @@ export const Bars = styled(FaBars)`
   padding-left: 0.5rem;
 `;
 
+/* this icon for members
 export const User = styled(FaUserCircle)`
   font-size: 1.8rem;
   margin: 0 1rem;
   padding-left: 0.5rem;
 `;
+*/
 
 export const NavPaperclip = styled(FaPaperclip)`
   font-size: 1.5em;
@@ -92,7 +91,7 @@ export const NavPaperclip = styled(FaPaperclip)`
   }
 `;
 
-export const RuthChat = styled(FaRobot)`
+export const RubyChat = styled(FaRobot)`
   font-size: 1.5em;
   margin: 0 1rem;
   color: white;

@@ -8,10 +8,8 @@ import {
   NavPaperclip,
   NavMainMenu,
   NavMenuWrap,
-  NavUserMenu,
   Bars,
-  User,
-  RuthChat,
+  RubyChat,
   NavProject,
   NavPackage,
   NavIconbar,
@@ -41,7 +39,7 @@ const Navbar = ({ toggle }) => {
             target='_blank'
             rel='noopener'>
             <span className='tooltiptext'>AI Chatbot</span>
-            <RuthChat />
+            <RubyChat />
           </a>
           <a
             className='tooltip'
