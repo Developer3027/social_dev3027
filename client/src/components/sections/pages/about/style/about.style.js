@@ -37,6 +37,23 @@ export const EvenBox = styled.div`
   justify-content: space-evenly;
   margin: 0.5em auto;
   width: 900px;
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+    width: 100%;
+  }
+`;
+
+export const OddBox = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0.5em auto;
+  width: 900px;
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
 `;
 
 export const Cert = styled.span`

@@ -6,12 +6,10 @@ import {
   Image,
   DarkTitle,
   DarkText,
+  BannerBlack,
+  TitleBlack,
+  ButtonBlack,
 } from '../../style/common.style';
-import {
-  OptiBannerBlack,
-  OptimizeTitleBlack,
-  OptiButtonBlack,
-} from './style/opti.style';
 
 const Optimize = () => {
   return (
@@ -50,10 +48,10 @@ const Optimize = () => {
         the issues. I personally use Web.Dev and several of those tools like web
         vitals to optimize web sites.
       </DarkText>
-      <OptiBannerBlack>
-        <OptimizeTitleBlack>Optimize Me!</OptimizeTitleBlack>
-        <OptiButtonBlack>Help Please!</OptiButtonBlack>
-      </OptiBannerBlack>
+      <BannerBlack>
+        <TitleBlack>Optimize Me!</TitleBlack>
+        <ButtonBlack to='/contact'>Help Please!</ButtonBlack>
+      </BannerBlack>
     </LightBox>
   );
 };

@@ -21,7 +21,11 @@ export const GlobalStyle = createGlobalStyle`
   h4,
   h5,
   h6,
-  a {
+  a, 
+  p,
+  label,
+  input,
+  textarea {
     color: white;
     font-family: "Inter", sans-serif;
   }

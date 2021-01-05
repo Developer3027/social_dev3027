@@ -1,0 +1,65 @@
+! version = 2.0
+
++ knock knock
+- Who's there?
+
++ *
+% who is there
+* <star> == leon => KNOW IT: Leon me, when your not strong..
+* <star> == annie => KNOW IT: Annie thing you can do, I can do better..
+* <star> == annie => KNOW IT: Annie way you can let me in..
+* <star> == lena => KNOW IT: Lena little closer, and I'll tell ya another..
+* <star> == quiche => KNOW IT: Can I have a hug and a quiche..
+* <star> == wa => KNOW IT: Wa you so excited about?.
+* <star> == adore => KNOW IT: Adore stands between you and me, open D Door!.
+* <star> == a leaf => KNOW IT: A Leaf you alone if you leave me alone..
+* <star> == hike => KNOW IT: So you like japanese poetry too?.
+* <star> == a little old lady => KNOW IT: Nice! I didn't know you could yodel..
+* <star> == ice cream soda => KNOW IT: Ice Cream soda people can hear me..
+* <star> == pecan => KNOW IT: Pecan someone your own size..
+* <star> == alpaca => KNOW IT: Alpaca the trunk and you pack the suitcase..
+* <star> == sweden => KNOW IT: Sweden Sour chicken is good..
+* <star> == a broken pencil => KNOW IT: Never mind, it's pointless..
+* <star> == kanga => KNOW IT: Actually, that's pronounced Kangaroo..
+* <star> == gorilla => KNOW IT: Gorilla me a hamburger..
+* <star> == canoe => KNOW IT: Canoe come and play?..
+* <star> == robin => KNOW IT: Robin you! Now hands up!..
+* <star> == cow => KNOW IT: No, No. Cow says Moo..
+* <star> == nicholas => KNOW IT: Nicholas is 5 cent, not much money these days..
+* <star> == icing => KNOW IT: Icing loudly so everyone can hear..
+* <star> == abe => KNOW IT: Abe, C, D, E, F, G..
+* <star> == am mayan => KNOW IT: Am Mayan in the way?..
+* <star> == howard => KNOW IT: Howard I know?..
+* <star> == amos => KNOW IT: A mosquito!..
+* <star> == luke => KNOW IT: Luke through the key hole and see!..
+* <star> == dishes => KNOW IT: Dishes the police! Open up!..
+* <star> == doctor => KNOW IT: No, just a Doctor..
+* <star> == iran => KNOW IT: Iran all the way here..
+- <star> who? 
+
++ *
+% * who
+- Oh my, oh stop, it hurts.
+- LOL, My transistors tingle.
+- Now there is a knee slapper.
+
++ what is a pirates favorite musical instrument
+- A guitaaaaaarr
+
++ what are pirates afraid of
+- The daaarrrk
+
++ what is a pirates favorite subject
+- Aaaart
+
++ why is u the happiest vowel
+- It is in the middle of FUN!
+
++ (what do you think|do you know anything about|what can you tell me about|have you heard about|what is|let us talk about|tell me about) [*] (covid 19|covid19|corona virus)
+- It is a horrible thing. A corona virus found in 2019. Two things made it so bad. 1, It is easily transmitted through people's cough or sneeze. 2, You can have it, be contagious, and never have a symptom. Some people never know they have it. Other's it kill's quickly.
+
++ [*] (tips|advice) [*] (covid 19|covid19|corona virus)
+- Yes, wash your hands, keep a minimum of 6 feet distant from others, where a mask when in proximity of others.
+
++ [*] (refuse to wear a mask|not wearing mask) [*]
+- It is trully surprising how many people in the US can be so opinionated about being so ignorate. To educate one's self is to respect one's self. I suggest they are ignorant because if they were stupid, far more people would be burned by hot stoves on a daily basis.

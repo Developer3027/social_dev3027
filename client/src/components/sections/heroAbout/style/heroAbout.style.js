@@ -1,16 +1,11 @@
 import styled from 'styled-components/macro';
-import { Link } from 'react-router-dom';
-import bgphoto from '../../../../images/mason_roberts.png';
-
-export const HeroWrapper = styled.section`
-  background-color: #000;
-`;
+import bgphoto from '../../../../images/bgphoto.jpg';
 
 export const HeroContainer = styled.div`
-  background: url(${bgphoto});
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+    url(${bgphoto});
   background-position: center;
-  background-size: 25%;
-  background-repeat: no-repeat;
+  background-size: cover;
   height: 80vh;
 
   @media screen and (max-width: 800px) {
@@ -18,22 +13,13 @@ export const HeroContainer = styled.div`
   }
 
   @media screen and (max-width: 500px) {
-    background: linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0.8),
-        rgba(0, 0, 0, 0.1)
-      ),
-      url(${bgphoto});
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: 80%;
     height: 100%;
   }
 `;
 
 export const HeroContent = styled.div`
   display: flex;
-  grid-template-columns: 30%, 30%, 30%;
+  grid-template-columns: 50%, 50%;
 
   @media screen and (max-width: 800px) {
     /* flex-direction: column; */
@@ -65,32 +51,15 @@ export const HeroItemLeft = styled.div`
   }
 `;
 
-export const HeroItemCenter = styled.div`
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  color: #fff;
-  padding: 0 3rem;
-  padding-top: 5%;
-  height: 80vh;
-
-  @media screen and (max-width: 800px) {
-    height: 100vh;
-    padding-top: 7%;
-  }
-
-  @media screen and (max-width: 500px) {
-    height: 100%;
-  }
-`;
-
 export const HeroItemRight = styled.div`
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
-  transform: rotate(90deg);
+  line-height: 1.3;
   padding: 0 3rem;
-  padding-top: 5%;
+  /* padding-top: 10%; */
   height: 80vh;
 
   @media screen and (max-width: 800px) {
@@ -100,10 +69,7 @@ export const HeroItemRight = styled.div`
 
   @media screen and (max-width: 500px) {
     height: 100%;
-    transform: rotate(0deg);
-    justify-content: center;
-    margin: 0.5em 0;
-    /* padding: 20% 3rem; */
+    padding: 20% 3rem;
   }
 `;
 
@@ -154,19 +120,4 @@ export const HeroLocation = styled.p`
 export const HeroHL = styled.span`
   color: #c9e265;
   border-bottom: 5px solid #7ed957;
-`;
-
-export const HeroContact = styled(Link)`
-  font-weight: bold;
-  color: #7ed957;
-  padding: 1em 4em;
-  border: 1px solid #c9e265;
-
-  &:hover {
-    background: linear-gradient(
-      to top,
-      rgba(201, 226, 101, 0.7),
-      rgba(201, 226, 101, 0.1)
-    );
-  }
 `;

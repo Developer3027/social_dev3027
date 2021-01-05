@@ -6,6 +6,9 @@ import {
   DarkTitle,
   DarkText,
   Image,
+  BannerBlack,
+  TitleBlack,
+  ButtonBlack,
 } from '../../style/common.style';
 
 const WebDesign = () => {
@@ -53,6 +56,10 @@ const WebDesign = () => {
         React. SPA and PWA applications can be run like apps on mobile devices
         allowing for installation and offline usage.
       </DarkText>
+      <BannerBlack>
+        <TitleBlack>Design Me!</TitleBlack>
+        <ButtonBlack to='/contact'>Help Please!</ButtonBlack>
+      </BannerBlack>
     </LightBox>
   );
 };

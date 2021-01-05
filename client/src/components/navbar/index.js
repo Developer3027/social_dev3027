@@ -53,9 +53,6 @@ const Navbar = ({ toggle }) => {
           </a>
         </NavIconbar>
         <NavMenuWrap>
-          <NavUserMenu>
-            <User />
-          </NavUserMenu>
           <NavMainMenu onClick={toggle}>
             <Bars />
           </NavMainMenu>

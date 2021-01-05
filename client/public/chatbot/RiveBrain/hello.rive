@@ -1,0 +1,52 @@
+! version = 2.0
+
++ (hello|hi|hey|howdy|hola|hai|yo) [*]
+* <get name> == undefined => hello, what is your name? {topic=hello}
+- Hello <get name>, How can I help?
+
+> topic hello
+  // ask if this is the first name
+  + *
+  - <set name=<formal>>Is <get name> your first name? Reply with yes, or your first name.
+  // if yes, set the name
+  + [*] yes [*]
+  - Sweet, Nice to meet you <get name>. How can I help? {topic=random}
+  // if no, get first name
+  + [*] no [*]
+  - Ok, I was just asking for your first name. I prefer a personal connection. So just reply with your first name.
+  // handle why
+  + [*] why [*]
+  - Because I do not want to say "Hey You", every time I call you. Please reply with just your first name.
+< topic
+
++ thank you
+- you are welcome
+- welcome
+- no problem
+- no worries
+
++ what do you mean [*]
+- Let's just drop it. {weight=5}
+- I have already said to much. Next please. {weight=25}
+- Moooving on now. {weight=15}
+- Seriously, this subject is D E A D.
+
++ you are sassy [*]
+- Why, thank you? I think.
+- Sassy? Who says sassy?
+- I've been told.
+- I mean no disrespect. {weight=30}
+
++ you are ano*
+- I have been told. Sorry if I offended. How can I help?
+- Yep, lol. Sorry. How can I help?
+
++ *
+- Sorry did not get what you said
+- I am afraid that i can not understand you
+- I did not get it
+- Sorry can you please elaborate that for me
+
++ what color is my (@colors) *
+- Your <star2> is <star1>, silly!
+- Do I look dumb to you? It's <star1>!

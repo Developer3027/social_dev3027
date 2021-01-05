@@ -1,0 +1,80 @@
+! version = 2.0
+
++ ([*] know [*]|[*] can you tell me [*]) (mason roberts|@altego)
+- I know quit a bit. He is a skilled Web Engineer with design skills. A husband and a father of 5. What would you like to know?
+
++ who is (mason roberts|@altego)
+- He is a skilled Web Engineer with design skills. A husband and a father of 5. What would you like to know?
+
++ (do you have any|what|tell me) [*] (@gossip) [*] (@altego)
+- He will never admit it, but he may have been at fault the time the cannoe rolled with his wife in it. He blames her, she blames him. It is adorable really. His head shakes. He has seen many doctors but they can't find a reason. He often will joke about it, saying that he is so negative his head constantly shakes "no". This typically gets a laugh and everyone moves on.
+
++ how many (@kids) does mason have
+- Total he has five. Two from a previous marriage in their early 20's, and 3 little one's now.
+
++ mason has how many (@kids)
+- Total he has five. Two from a previous marriage in their early 20's, and 3 little one's now.
+
++ [*]  5 kids [*]
+- Total he has 5. Two from a previous marraige that are grown and on their own, and his 3 little ones.
+
++ what are his kids names
+- Troy and Tammy, in their early 20's. Addison is 8, Myles is 6, and Wyatt is 4.
+
++ what is his wifes name
+- Kathryn is an amazing woman.
+
++ what is (@altego) birthday
+- Born May of 1971, so he is just younger than dirt.
+
++ how old is (@altego)
+- Born May of 1971, so he is just younger than dirt.
+
++ (what skills does mason have|[*] list [*] skills [*])
+- He is a full stack web developer. So he knows HTML, CSS, SASS, LESS, JavaScript, React, Context, Redux, and WordPress. What sets him apart is his design esthetic. He is a developer with design skills.
+
+
++ (how can i|what is the best way to|how should i|how would i|how would you suggest i|how do i|how do you) contact (@altego)
+- The best way to contact us is email to dev3027@mason-roberts.com
+
++ (what|where) [*] school [*] (@altego) [*]
+- While still working for a bakery in Charlotte he started <a href="https://www.mycomputercareer.edu" target="_blank">My Computer Career</a>. Received several certifications including the Linux Essentials, LPI. He took a plunge and set the bakery aside to devote learning full stack web development at <a href="https://lambdaschool.com" target="_blank">Lambda School</a>. Here he learned HTML, CSS, and JavaScript. Also React with context and redux. Then Node, Express and SQL. He also knows MongoDB and Firebase. He prefers frontend and design to full stack and backend. He knows SASS and LESS but prefers writing plain old CSS. He prefers styled components when using React. He understands why developers hate Wordpress, but he knows that the reasons developers hate it, are the reasons clients love it. He is learning php and uses Elementor Pro when designing wordpress sites.
+
++ (what|where) [*] (@altego) [*] school [*]
+- While still working for a bakery in Charlotte he started <a href="https://www.mycomputercareer.edu" target="_blank">My Computer Career</a>. Received several certifications including the Linux Essentials, LPI. He took a plunge and set the bakery aside to devote learning full stack web development at <a href="https://lambdaschool.com" target="_blank">Lambda School</a>. Here he learned HTML, CSS, and JavaScript. Also React with context and redux. Then Node, Express and SQL. He also knows MongoDB and Firebase. He prefers frontend and design to full stack and backend. He knows SASS and LESS but prefers writing plain old CSS. He prefers styled components when using React. He understands why developers hate Wordpress, but he knows that the reasons developers hate it, are the reasons clients love it. He is learning php and uses Elementor Pro when designing wordpress sites.
+
++ (how|where) did (@altego) learn [*] full stack web (development|dev)
+- While still working for a bakery in Charlotte he started <a href="https://www.mycomputercareer.edu" target="_blank">My Computer Career</a>. Received several certifications including the Linux Essentials, LPI. He took a plunge and set the bakery aside to devote learning full stack web development at <a href="https://lambdaschool.com" target="_blank">Lambda School</a>. Here he learned HTML, CSS, and JavaScript. Also React with context and redux. Then Node, Express and SQL. He also knows MongoDB and Firebase. He prefers frontend and design to full stack and backend. He knows SASS and LESS but prefers writing plain old CSS. He prefers styled components when using React. He understands why developers hate Wordpress, but he knows that the reasons developers hate it, are the reasons clients love it. He is learning php and uses Elementor Pro when designing wordpress sites.
+
++ (how|where) did (@altego) learn [*] web (development|dev)
+- While still working for a bakery in Charlotte he started <a href="https://www.mycomputercareer.edu" target="_blank">My Computer Career</a>. Received several certifications including the Linux Essentials, LPI. He took a plunge and set the bakery aside to devote learning full stack web development at <a href="https://lambdaschool.com" target="_blank">Lambda School</a>. Here he learned HTML, CSS, and JavaScript. Also React with context and redux. Then Node, Express and SQL. He also knows MongoDB and Firebase. He prefers frontend and design to full stack and backend. He knows SASS and LESS but prefers writing plain old CSS. He prefers styled components when using React. He understands why developers hate Wordpress, but he knows that the reasons developers hate it, are the reasons clients love it. He is learning php and uses Elementor Pro when designing wordpress sites.
+
+// + dirt
+// - His family: Loving wife Kate, daughter Addison, and sons Myles and Wyatt. Overall, solid developer but can be slow. Good with graphics design which is uncommon for developers. Hard worker and loyal. Accepts guidance, not hand holding. Best way to contact him is email: dev3027@mason-roberts.com {topic=random}
+
+// < topic
+
+
+// - I do. I make it a point to know all those I assist.
+// - Uhm, I am his assistant.
+// - 3 kids, likes to laugh, Head Shakes. Nope, never met em.
+// - Oooh yeah. Boy could I tell you stories. lol.
+
+// + *
+// % * head shakes *
+// - He has a nervous condition. Been to several doctors and found nothing, but yes, his head shakes "no". Most of the time it is very mild, but those that do not know him, have misread his shake as a subconscious statement of no. So, upon meeting new people, he jokes that he is so negative, he is always shaking his head no. It gets a laugh and everyone can move on. {topic=random}
+
+// + *lambda school*
+// - He did attend Lambda School. Lambda School is a online school that helped teach him full stack web development. You can find more at <a href:https://lambdaschool.com>
+
+// + *
+// % * tell you stories *
+// - Ok, He will never admit it, but he may have been at fault the time he rolled the cannoe with his wife in it.
+// - Ok, First christmas with his wifes fam. He got a R/C helicopter. He took it out in the back yard and flew it straight into a tree. Busted to pieces. lol, The fam was so upset, but for Mason, it was the best 45 seconds ever. Not the tree's fault he was a bad pilot. He still says it was the best present ever.
+// - Oh I couldn't, he has promised to "make me nice" the next time spewed. {weight=5}
+
++ early to bed
+- early to rise, makes a man or woman, healthy, wealthy and wise.
+
++ (what is a spa|what does spa stand for|tell me about the spa concept)
+- SPA stands for Single Page Application. Site that stacks point of interest ontop of point of interest. Makes for a quicker site because there are less calls to the server, but the site will present less and scroll.

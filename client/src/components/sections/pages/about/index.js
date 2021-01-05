@@ -2,6 +2,7 @@ import React from 'react';
 import mason from '../../../../images/mason_roberts.png';
 import {
   EvenBox,
+  OddBox,
   Cert,
   SmlHL,
   HlText,
@@ -25,7 +26,7 @@ const About = () => {
         <Image src={mason} alt='image of mason' />
       </Banner>
 
-      <EvenBox>
+      <OddBox>
         <a
           href='https://linkedin.com/in/mason-roberts-3027'
           target='_blank'
@@ -42,7 +43,7 @@ const About = () => {
         <a href='https://codepen.io/Mason3027' target='_blank' rel='noopener'>
           <CodePen />
         </a>
-      </EvenBox>
+      </OddBox>
 
       <EvenBox>
         <HlText>

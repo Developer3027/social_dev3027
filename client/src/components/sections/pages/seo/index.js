@@ -6,6 +6,9 @@ import {
   DarkTitle,
   DarkText,
   Image,
+  BannerBlack,
+  TitleBlack,
+  ButtonBlack,
 } from '../../style/common.style';
 
 const SEO = () => {
@@ -45,6 +48,10 @@ const SEO = () => {
         to your site. These connections help drive and strengthen the bonds that
         bots look at to help rank you in SEO.
       </DarkText>
+      <BannerBlack>
+        <TitleBlack>Search Me!</TitleBlack>
+        <ButtonBlack to='/contact'>Help Please!</ButtonBlack>
+      </BannerBlack>
     </LightBox>
   );
 };
