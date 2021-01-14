@@ -4,11 +4,25 @@
   "description": "server for social",
   "main": "server.js",
   "repository": "https://github.com/Developer3027/social_dev3027",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
   "author": "Mason Roberts",
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.3",
     "express": "^4.17.1",
-    "mysql": "^2.18.1"
+    "express-validator": "^6.9.2",
+    "gravatar": "^1.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.11",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.7"
   }
 }

@@ -1,26 +1,22 @@
 const express = require('express');
+const connectDB = require('./config/db');
 const app = express();
 
-const mysql = require('mysql');
-const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'mason',
-  password: 's8Mi1SfONCNj',
-  database: 'test',
+connectDB();
+
+app.get('/', (req, res) => {
+  res.send('Social is running');
 });
 
-connection.connect();
+// middleware
+app.use(express.json({ extended: false }));
 
-app.get('/test', async (req, res) => {
-  await connection.query(
-    "INPUT INTO projects(img, title, body, anchor) VALUES ('./someshit.jpg', 'testing', 'This is the body of testing', 'https://elementor.mason-roberts.com');",
-    (err, results) => {
-      console.log(err);
-      res.send(results);
-    }
-  );
-});
+// Define routes
+app.use('/api/auth', require('./routes/api/auth'));
+app.use('/api/users', require('./routes/api/user'));
+app.use('/api/profile', require('./routes/api/profile'));
+app.use('/api/posts', require('./routes/api/posts'));
 
-app.listen(3002, (req, res) => {
-  console.log('server running');
-});
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => console.log(`social server is running on ${PORT}`));
