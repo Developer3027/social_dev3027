@@ -1,7 +1,13 @@
-import styled from 'styled-components/macro';
-import { Link } from 'react-router-dom';
-import { IoMdCube } from 'react-icons/io';
-import { FaBars, FaPaperclip, FaRobot, FaMugHot } from 'react-icons/fa';
+import styled from 'styled-components/macro'
+import { Link } from 'react-router-dom'
+import { IoMdCube } from 'react-icons/io'
+import {
+  FaBars,
+  FaPaperclip,
+  FaRobot,
+  FaMugHot,
+  FaUserCircle
+} from 'react-icons/fa'
 
 export const Nav = styled.nav`
   display: flex;
@@ -14,7 +20,7 @@ export const Nav = styled.nav`
   background-color: #222222;
   height: 80px;
   font-weight: 700;
-`;
+`
 
 export const NavLink = styled(Link)`
   color: white;
@@ -24,13 +30,13 @@ export const NavLink = styled(Link)`
   text-decoration: none;
   font-family: 'Inter', sans-serif;
   cursor: pointer;
-`;
+`
 
 export const NavHighlight = styled.span`
   color: #7ed957;
   font-size: 1.3em;
   margin-left: 0.5rem;
-`;
+`
 
 export const NavMainMenu = styled.div`
   display: flex;
@@ -38,7 +44,7 @@ export const NavMainMenu = styled.div`
   align-items: center;
   cursor: pointer;
   color: white;
-`;
+`
 
 export const NavMenuWrap = styled.div`
   display: flex;
@@ -46,18 +52,17 @@ export const NavMenuWrap = styled.div`
   align-items: center;
   cursor: pointer;
   color: white;
-`;
+`
 
-/* For members section
-* Add the user icon and wrap with this div
+// For members section
+// Add the user icon and wrap with this div
 export const NavUserMenu = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   color: white;
-`;
-*/
+`
 
 export const NavIconbar = styled.div`
   display: flex;
@@ -65,21 +70,17 @@ export const NavIconbar = styled.div`
   @media screen and (max-width: 800px) {
     display: none;
   }
-`;
+`
 
 export const Bars = styled(FaBars)`
   font-size: 1.5em;
   margin: 0 1rem;
   padding-left: 0.5rem;
-`;
 
-/* this icon for members
-export const User = styled(FaUserCircle)`
-  font-size: 1.8rem;
-  margin: 0 1rem;
-  padding-left: 0.5rem;
-`;
-*/
+  &:hover {
+    color: #7ed957;
+  }
+`
 
 export const NavPaperclip = styled(FaPaperclip)`
   font-size: 1.5em;
@@ -89,7 +90,7 @@ export const NavPaperclip = styled(FaPaperclip)`
   &:hover {
     color: #7ed957;
   }
-`;
+`
 
 export const RubyChat = styled(FaRobot)`
   font-size: 1.5em;
@@ -99,7 +100,17 @@ export const RubyChat = styled(FaRobot)`
   &:hover {
     color: #7ed957;
   }
-`;
+`
+
+export const NavPackage = styled(IoMdCube)`
+  font-size: 1.4em;
+  margin: 0 1rem;
+  color: white;
+
+  &:hover {
+    color: #7ed957;
+  }
+`
 
 export const NavProject = styled(FaMugHot)`
   font-size: 1.2em;
@@ -109,14 +120,15 @@ export const NavProject = styled(FaMugHot)`
   &:hover {
     color: #7ed957;
   }
-`;
+`
 
-export const NavPackage = styled(IoMdCube)`
-  font-size: 1.5em;
+// this icon for members
+export const User = styled(FaUserCircle)`
+  font-size: 1.8rem;
   margin: 0 1rem;
-  color: white;
+  padding-left: 0.5rem;
 
   &:hover {
     color: #7ed957;
   }
-`;
+`

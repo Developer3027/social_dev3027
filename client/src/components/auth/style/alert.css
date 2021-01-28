@@ -1,0 +1,11 @@
+.alert-danger {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 300px;
+  padding: 0.5em 1em;
+  margin-bottom: 1em;
+  background-color: #ff001f;
+  border-radius: 5px;
+  color: #fff;
+}

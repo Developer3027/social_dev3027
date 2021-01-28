@@ -1,18 +1,18 @@
-import React from 'react';
-import { IoMdCube } from 'react-icons/io';
-import { FaPaperclip, FaRobot, FaMugHot } from 'react-icons/fa';
+import React from 'react'
+import { IoMdCube } from 'react-icons/io'
+import { FaPaperclip, FaRobot, FaMugHot } from 'react-icons/fa'
 
 import {
   SidebarContainer,
   SidebarMenu,
   SidebarLink,
-  SidebarAnchor,
-} from './style/sidebar.style';
+  SidebarAnchor
+} from './style/sidebar.style'
 
-const Sidebar = ({ isOpen, toggle }) => {
+const Sidebar = ({ isMainOpen, toggleMain }) => {
   return (
     <>
-      <SidebarContainer isOpen={isOpen} onClick={toggle}>
+      <SidebarContainer isMainOpen={isMainOpen} onClick={toggleMain}>
         <SidebarMenu>
           <SidebarLink to='/contact'>&nbsp;Contact</SidebarLink>
 
@@ -56,7 +56,7 @@ const Sidebar = ({ isOpen, toggle }) => {
         </SidebarMenu>
       </SidebarContainer>
     </>
-  );
-};
+  )
+}
 
-export default Sidebar;
+export default Sidebar

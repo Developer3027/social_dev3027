@@ -1,5 +1,5 @@
-import React from 'react';
-import logo from '../../images/50px-trans-gears-logo.png';
+import React from 'react'
+import logo from '../../images/50px-trans-gears-logo.png'
 
 import {
   Nav,
@@ -8,14 +8,16 @@ import {
   NavPaperclip,
   NavMainMenu,
   NavMenuWrap,
+  NavUserMenu,
+  User,
   Bars,
   RubyChat,
   NavProject,
   NavPackage,
-  NavIconbar,
-} from './style/navbar.style';
+  NavIconbar
+} from './style/navbar.style'
 
-const Navbar = ({ toggle }) => {
+const Navbar = ({ toggleMain, toggleMember }) => {
   return (
     <>
       <Nav>
@@ -51,13 +53,16 @@ const Navbar = ({ toggle }) => {
           </a>
         </NavIconbar>
         <NavMenuWrap>
-          <NavMainMenu onClick={toggle}>
+          <NavUserMenu onClick={toggleMember}>
+            <User />
+          </NavUserMenu>
+          <NavMainMenu onClick={toggleMain}>
             <Bars />
           </NavMainMenu>
         </NavMenuWrap>
       </Nav>
     </>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

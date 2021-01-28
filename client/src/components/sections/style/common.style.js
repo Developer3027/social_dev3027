@@ -1,7 +1,7 @@
-import styled from 'styled-components/macro';
-import { Link } from 'react-router-dom';
+import styled from 'styled-components/macro'
+import { Link } from 'react-router-dom'
 
-export const Container = styled.div`
+export const Container = styled.section`
   font-family: 'Nunito', sans-serif;
   height: 100%;
   display: flex;
@@ -15,15 +15,15 @@ export const Container = styled.div`
   @media screen and (max-width: 500px) {
     height: 100%;
   }
-`;
+`
 
 export const DarkBox = styled(Container)`
   background-color: #000;
-`;
+`
 
 export const LightBox = styled(Container)`
   background-color: #fff;
-`;
+`
 
 export const Banner = styled.div`
   display: flex;
@@ -38,7 +38,7 @@ export const Banner = styled.div`
     width: 100%;
     padding: 1rem 2rem;
   }
-`;
+`
 
 export const Image = styled.img`
   margin-right: 3rem;
@@ -47,35 +47,35 @@ export const Image = styled.img`
   @media screen and (max-width: 500px) {
     width: 83px;
   }
-`;
+`
 
 export const logoImg = styled.img`
   width: 50%;
-`;
+`
 
 export const Title = styled.h1`
   padding: 1rem 0;
-`;
+`
 
 export const DarkTitle = styled(Title)`
   color: #000;
-`;
+`
 
 export const LightTitle = styled(Title)`
   color: #fff;
-`;
+`
 
 export const TitleThree = styled.h3`
   padding: 0.5rem 0;
-`;
+`
 
 export const LightTitleThree = styled(TitleThree)`
   color: #fff;
-`;
+`
 
 export const DarkTitleThree = styled(TitleThree)`
   color: #000;
-`;
+`
 
 export const Text = styled.p`
   font-size: 18px;
@@ -88,15 +88,15 @@ export const Text = styled.p`
     width: 100%;
     padding: 1rem 2rem;
   }
-`;
+`
 
 export const DarkText = styled(Text)`
   color: #000;
-`;
+`
 
 export const LightText = styled(Text)`
   color: #fff;
-`;
+`
 
 export const BannerBlack = styled.div`
   display: flex;
@@ -113,11 +113,11 @@ export const BannerBlack = styled.div`
     width: 100%;
     padding: 1rem 2rem;
   }
-`;
+`
 
 export const TitleBlack = styled.h1`
   color: #fff;
-`;
+`
 
 export const ButtonBlack = styled(Link)`
   font-family: 'Nunito', sans-serif;
@@ -142,4 +142,4 @@ export const ButtonBlack = styled(Link)`
     color: #000;
     cursor: pointer;
   }
-`;
+`
